@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewCategoryType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/products_list_dialog_text_edittext_categoryType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCategoryType" />
+
+    <TextView
+        android:id="@+id/textViewOrderType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/products_list_dialog_text_edittext_orderType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCategory" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerCategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOrderType">
+
+        <RadioButton
+            android:id="@+id/radioButtonSortByDefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/products_list_dialog_radiobutton_text_sortbydefault" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSortByNameAsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/products_list_dialog_radiobutton_text_sortbyname_asc" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSortByNameDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/products_list_dialog_radiobutton_text_sortbyname_desc" />
+
+        <RadioButton
+            android:id="@+id/radioButtonByLowestPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/products_list_dialog_radiobutton_text_sortbyprice_lowest" />
+
+        <RadioButton
+            android:id="@+id/radioButtonByHighestPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/products_list_dialog_radiobutton_text_sortbyprice_highest" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

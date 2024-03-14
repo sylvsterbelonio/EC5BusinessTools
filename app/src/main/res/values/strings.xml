@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EC5 Business Tools</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_products">Products</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- PRODUCT LIST -->
+    <string name="products_list_button_desc">Sort Products</string>
+        <!-- CUSTOMIZE DIALOG BOX LAYOUT (fragment_products_dialogbox.xml) -->
+        <string name="products_list_dialog_text_edittext_categoryType">CATEGORY TYPE</string>
+        <string name="products_list_dialog_text_edittext_orderType">ORDER TYPE</string>
+        <string name="products_list_dialog_radiobutton_text_sortbydefault">Default</string>
+        <string name="products_list_dialog_radiobutton_text_sortbyname_asc">Sort by Ascending Name</string>
+        <string name="products_list_dialog_radiobutton_text_sortbyname_desc">Sort by Descending Name</string>
+        <string name="products_list_dialog_radiobutton_text_sortbyprice_lowest">Sort by Lowest Price</string>
+        <string name="products_list_dialog_radiobutton_text_sortbyprice_highest">Sort by Highest Price</string>
+
+    <string name="banner_bottom_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>
